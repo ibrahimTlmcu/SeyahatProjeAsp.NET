@@ -4,11 +4,11 @@ using System.Linq;
 
 namespace SeyahatProje.ViewComponents.Default
 {
-    public class _SliderPartail : ViewComponent
+    public class _SliderPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {
-            return View(); 
+            return View();
         }
     }
 }
